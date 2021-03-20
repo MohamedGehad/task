@@ -1,0 +1,363 @@
+
+body
+{
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Robot,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+header
+{
+    background-image: url(../images/bg-image-28.jpg);
+    background-size: cover;
+    height:100vh;
+}
+a
+{
+    color: #ffffff !important;
+}
+.nav-link
+{
+    font-weight: 500;
+    letter-spacing: 0.06;
+}
+.fm
+{
+    background-color:transparent !important;
+
+}
+.btttn:hover .fm
+{
+ 
+    background-color:wheat !important;
+
+    color: black !important;
+
+}
+
+
+.icon
+{
+    color: #ffffff;
+    margin: 5 4px;
+}
+.sacand
+{
+    opacity: 1;
+}
+.fiirst
+{
+
+    opacity: 0;
+    width: 10vh;
+
+}
+.mm
+{
+    font-size: 100px;
+    font-weight: 700;
+    color: #fff;
+}
+.ll
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 10 0;
+}
+.sma
+{
+    background-color: #00c3da !important;
+}
+.fiirst img
+{
+height: 200px;
+width: 700px;
+}
+.linevv
+{
+    
+    width: 20px;
+    height: 10px;
+}
+.sd
+{
+    margin: 0 5;
+}
+.gray-bg
+{
+    background-color: #f7f7f7;
+}
+
+.layer
+{
+    background-color:rgba(31, 31, 31, 0.55);
+    height: 100%;
+}
+.gol 
+{
+    color: rgb(255, 215, 0);
+}
+.ff
+{
+    position: relative;
+
+}
+
+.smawy-text
+{
+    color: #00c3da !important;
+}
+.typed-cursor
+{
+    display: none;
+}
+.parnt h6
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    margin-top: 0;
+    color: #1f1f1f;
+    line-height:1.3;
+}
+.typed-words::before
+{
+    content:"" ;
+    animation: animate infinite 4s;
+    position: relative;
+}
+@keyframes animate{
+    0%{
+        content: "apps";
+    }
+    50%{
+        content: "websites";
+    }
+    100%{
+        content: "softwares";
+    }
+
+}
+
+.logo
+{
+    margin-left: 40px;
+    width: 100px;
+    height: 50px;
+
+}
+.heading h3
+{
+    font-weight: bolder;
+    font-size: 3.5rem   ;
+}
+.heading h2
+{
+    font-weight: 700;
+    
+    font-size: 7rem  ;
+    color: #f1f1f1;
+    margin-bottom: 0;
+}
+.btn-colo
+{
+    color: #ffffff;
+    background-color: #00c3da;
+
+}
+.form-group  label
+{
+    color: #1f1f1f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.hh
+{
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+    
+}
+.team-imge
+{
+    max-width: 100%;
+    height: auto;
+}
+.sub-advisor
+{
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.sub-advisor .overlay span
+{
+    margin-bottom: 7;
+    margin-left: 7px;
+
+}
+.sub-advisor .overlay h4
+{
+    
+    margin-bottom: 7;
+    font-size: 13px;
+    margin-left: 7px;
+    font-weight: bold;
+
+}
+
+.sub-advisor .overlay
+{
+ background-color: rgba(0, 195, 218, 0.9);
+position: absolute;
+top: -100%;
+bottom: 100%;
+left: 15px;
+right: 15px;
+transition: all 200ms ease  0.5s;
+
+
+color: #ffffff;
+
+}
+.btn-bordered
+{
+    
+
+    color: black !important;
+    border-color: #dedede;
+    background-color: white;
+    line-height: 48px;
+    border-width: 1px;
+}
+.btn
+{
+
+    position: relative;
+    padding: 0 30px;
+    height: 50px;
+    overflow: hidden;
+    transition: all .3s ease;
+    
+}
+.mar
+{
+
+    margin-top: 6rem;
+}
+
+
+.section-contant:hover .btn
+{
+
+    background-color:#1f1f1f;
+    color: #f1f1f1 !important;
+
+}
+
+.btn.upper
+{
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+}
+.info-title{
+
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding: 20px 0;
+}
+.sub-advisor:hover .overlay
+{
+    top: 0%;
+    bottom: 0%;
+}
+
+.bb{
+    bottom: 10;
+    left: 0;
+}
+.nampar
+{
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+
+
+}
+.nampar h2
+{
+    font-size:5rem;
+    font-weight: 550;
+    letter-spacing: -2px;
+    margin: 0;
+}
+.nampar h2 span
+{
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: top;
+}
+.btn.btn-sm
+{
+    padding: 0 16px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+.btn-color
+{
+    color: #fff;
+    background-color: #00c3da;
+}
+.btn-shadow
+{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+.btn
+{
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+h1 h2 h3 h4 h5 h6 
+{
+    font-family: 'Poppins', sans-serif !important;
+}
+.tom
+{
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 10;
+    margin-top: 5rem;
+
+}
+.testimonia-info
+{
+    margin: 1rem 0;
+    
+}
+.testimonia img
+
+{
+    border-radius: 50%;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 20px;
+    width: 150px;
+    margin-top: -100px;
+}
+.asd
+{
+    margin: 6rem 0;
+}
+
+.maap
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(229, 227, 223);
+}
